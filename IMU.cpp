@@ -86,7 +86,7 @@ int IMUClass::begin()
   
   // set accelerometer max to 16G
   
-  writeRegister(BNNO055_ACC_Config, 0x0D | 0b00000011 );
+  writeRegister(BNNO055_ACC_Config, 0x0F );
   
 
   // set X = X, Y = Y, Z = Z
